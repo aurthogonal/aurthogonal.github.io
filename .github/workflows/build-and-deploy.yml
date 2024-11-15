@@ -30,12 +30,18 @@ jobs:
       
       - name: List generated files
         run: ls -R
-        
-      # Step 5: Deploy to GitHub Pages
+
+      # Step 5: Temporarily remove .gitignore rules
+      - name: Temporarily remove .gitignore rules
+        run: sed -i '/thumbnails/d' .gitignore && sed -i '/images.json/d' .gitignore
+
+      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
+          publish_branch: gh-pages
+          enable_jekyll: false
           exclude_assets: |
             node_modules

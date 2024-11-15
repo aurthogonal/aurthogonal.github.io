@@ -1,0 +1,47 @@
+[
+  {
+    "src": "images/beach.jpg",
+    "thumbnail": "thumbnails/beach.jpg",
+    "size": "2008x3227"
+  },
+  {
+    "src": "images/cece.jpg",
+    "thumbnail": "thumbnails/cece.jpg",
+    "size": "2438x3864"
+  },
+  {
+    "src": "images/cece_kaya_card.jpg",
+    "thumbnail": "thumbnails/cece_kaya_card.jpg",
+    "size": "2219x3119"
+  },
+  {
+    "src": "images/fruit.jpg",
+    "thumbnail": "thumbnails/fruit.jpg",
+    "size": "2861x1877"
+  },
+  {
+    "src": "images/land_of_dog_dad.jpg",
+    "thumbnail": "thumbnails/land_of_dog_dad.jpg",
+    "size": "2404x3755"
+  },
+  {
+    "src": "images/lime.jpg",
+    "thumbnail": "thumbnails/lime.jpg",
+    "size": "2527x2430"
+  },
+  {
+    "src": "images/market_building.jpg",
+    "thumbnail": "thumbnails/market_building.jpg",
+    "size": "2110x3257"
+  },
+  {
+    "src": "images/minion.jpg",
+    "thumbnail": "thumbnails/minion.jpg",
+    "size": "2099x3126"
+  },
+  {
+    "src": "images/strawberry.jpg",
+    "thumbnail": "thumbnails/strawberry.jpg",
+    "size": "2608x2577"
+  }
+]
