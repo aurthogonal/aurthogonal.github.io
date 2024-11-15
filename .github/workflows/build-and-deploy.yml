@@ -27,7 +27,10 @@ jobs:
       # Step 4: Generate thumbnails and images.json
       - name: Generate thumbnails and images.json
         run: node generate-thumbnails-and-json.js
-
+      
+      - name: List generated files
+        run: ls -R
+        
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
