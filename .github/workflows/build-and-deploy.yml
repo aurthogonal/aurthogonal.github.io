@@ -34,7 +34,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
+          publish_branch: main
           exclude_assets: |
             node_modules
-            thumbnails
-            images.json
