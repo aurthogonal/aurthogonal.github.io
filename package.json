@@ -1,0 +1,16 @@
+{
+  "name": "aurthogonal",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "generate-thumbnails-and-json": "node generate-thumbnails-and-json.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "photoswipe": "^5.4.4",
+    "sharp": "^0.33.5"
+  }
+}
